@@ -6,8 +6,9 @@ This is a pretty basic POC of a chatbot designed to help people reach their fitn
 
 If this seems cool to y'all and you want to see more, I'm happy to throw this in a larveal framework (event driven w/ react and node). I think that matches the job description right?
 
-You can run it with 
+You can run it after setting up a python venv (see here: https://docs.python.org/3/library/venv.html) with: 
 ```bash
+pip install chainlit openai
 chainlit run app.py -w
 ```
 However without an openAI api key set up there's not much to see. I sent over a lil demo so give that a look!
